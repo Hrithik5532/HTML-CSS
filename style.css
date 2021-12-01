@@ -1,0 +1,253 @@
+*{ 
+    padding: 0;
+    margin: 0;
+    
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+header{
+    height: 12vh;
+        
+        
+}
+nav{
+    display: flex;
+    background-image: linear-gradient(to right, #F0E68C, #ADD8E6);
+}
+ul{
+    margin: auto 14px;
+}
+ul a{
+    font-size: 18px;
+    padding: 16px;
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+}
+.logo{
+    padding: 14px;
+    margin: 0px 30px;
+        }
+nav img{
+            box-shadow: 2px 2px 15px black;
+}
+.slideshow-container{
+    margin: -3px auto;
+    max-width: 100%;
+    position: relative;
+    box-sizing:border-box
+}
+.mySlides {display: none;
+}    
+.prev, .next {
+            cursor: pointer;
+            position: absolute;
+            top: 50%;
+            width: auto;
+            margin-top: -22px;
+            padding: 16px;
+            color: white;
+            font-weight: bold;
+            font-size: 18px;
+            transition: 0.6s ease;
+            border-radius: 0 3px 3px 0;
+            user-select: none;
+}
+.next {
+            right: 0;
+            border-radius: 3px 0 0 3px;
+}
+        
+        /* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+            background-color: rgba(0,0,0,0.8);
+}
+        
+        /* Number text (1/3 etc) */
+        .numbertext {
+            color: #f2f2f2;
+            font-size: 12px;
+            padding: 8px 12px;
+            position: absolute;
+            top: 0;
+            display: none;
+        }
+        
+        /* The dots/bullets/indicators */
+
+        
+.active, .dot:hover {
+            background-color: #717171;
+}
+        
+        /* Fading animation */
+.fade {
+            -webkit-animation-name: fade;
+            -webkit-animation-duration: 1.5s;
+            animation-name: fade;
+    animation-duration: 1.5s;
+}
+        
+@-webkit-keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+}
+        
+@keyframes fade {
+from {opacity: .4}
+to {opacity: 1}
+}
+
+.slideshow-container img{
+            width: 100%;
+            height: 60vh;
+        }
+            
+
+.popular{
+    background: black;
+    color: white;
+    display: block;
+    padding: 7px;
+}
+.main{
+    margin: auto 27px;
+    border-bottom: 3px solid gray;
+}
+.main a{
+    color: white;
+    font-size: 30px;
+    padding: 3px;
+    text-decoration: none;
+}
+.block {
+    width: 15vw;
+    margin: auto 8px;
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* height: max-content; */
+    position: relative;
+}    
+
+.block img{
+    inline-size: -webkit-fill-available;
+    height: 30vh;
+    /* opacity: 0.6; */
+
+}
+.para{
+
+    text-align: center;
+    /* background-color: lightgrey; */
+    width: inherit;
+    position: absolute;
+    bottom: 0px;
+    background: black;
+    opacity: 0.7;
+    padding: 7px 0px;
+}
+.para:hover{
+
+    text-align: center;
+    /* background-color: lightgrey; */
+    width: inherit;
+    position: absolute;
+    bottom: 0px;
+    background: white;
+    opacity: 0.7;
+    padding: 7px 0px;
+}
+
+
+
+.para a{
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+}
+.para a:hover{
+    font-size:  20px;
+    color: black;
+}
+
+
+.dropbtn {
+    background-color: #ffeb3b;
+    color: black;
+    padding: 16px;
+    font-size: 19px;
+    border: none;
+  }
+  
+  #dropdown {
+    margin: auto 22px;
+    width: fit-content;
+    padding: 12px;
+    background-color: darkkhaki;
+    font-size: 20px;
+  }
+  
+  #dropdown option{
+    background-color: darkkhaki;
+    font-size: 20px;
+}
+#dropdown option:hover{
+    background-color: white;
+    
+    font-size: 20px;
+}
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    border-bottom: 2px solid black;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color: #ddd;}
+  
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  .dropdown:hover .dropbtn {background-color: #c8f81b;}
+
+/* Style the search field */
+form#example input[type=text] {
+  padding: 10px;
+  font-size: 22px;
+  border: 1px solid grey;
+  float: left;
+  width: 44vw;
+  background: #f1f1f1;
+
+}
+
+/* Style the submit button */
+form#example button {
+  float: left;
+  padding: 10px;
+  background: #2196F3;
+  color: white;
+  font-size: 25px;
+  border: 1px solid grey;
+  border-left: none; /* Prevent double borders */
+  cursor: pointer;
+}
+
+form#example button:hover {
+  background: #0b7dda;
+}
+
+/* Clear floats */
+
+
+   footer{
+        background-color:darkkhaki ;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        color: white;
+        text-align: center;
+        padding: 17px 0px;    }
